@@ -73,7 +73,7 @@ void FakeLag(C_BaseEntity* local, CUserCmd* cmd)
     }
 }
 
-void showranks(CUserCmd* cmd)
+/*void showranks(CUserCmd* cmd)
 {
     if(!vars.misc.showrank)
         return;
@@ -84,7 +84,7 @@ void showranks(CUserCmd* cmd)
     float input[3] = { 0.f };
     MsgFunc_ServerRankRevealAll(input);
 }
-
+*/
 void hacks(CUserCmd* cmd, C_BaseEntity* local, C_BaseCombatWeapon* weapon, Vector& vOldAngles, float& flForwardmove, float& flSidemove) //float& flWall, float& flConor
 {
     //set.command_number = cmd->command_number;
@@ -109,7 +109,7 @@ void hacks(CUserCmd* cmd, C_BaseEntity* local, C_BaseCombatWeapon* weapon, Vecto
     
     AutoCock(cmd, weapon);          // Auto Cock
     
-    showranks(cmd);                 // Show all ranks
+  //  showranks(cmd);                 // Show all ranks
     
     DoSpammer();                    // Spammer
     
