@@ -110,16 +110,7 @@ void UpdateResolver()
 
 void PrintInfo()
 {
-    pCvar->ConsoleColorPrintf(Color::White(), "[vape.us] Press ");
-    pCvar->ConsoleColorPrintf(Color::Pink(), "ALT ");
-    pCvar->ConsoleColorPrintf(Color::White(), "or ");
-    pCvar->ConsoleColorPrintf(Color::Pink(), "INSERT ");
-    pCvar->ConsoleColorPrintf(Color::White(), "to open the menu.\n");
-    pCvar->ConsoleColorPrintf(Color::Pink(), "[vape.us] Discord Link: https://discord.gg/JFACHnW\n");
-    pCvar->ConsoleColorPrintf(Color::White(), "[vape.us] Free Mac HvH Cheat pasted by -X!\n");
-    pCvar->ConsoleColorPrintf(Color::Pink(), "//TY bellez for the help\n");
-    pCvar->ConsoleColorPrintf(Color::White(), "https://www.youtube.com/bellez\n");
-    pCvar->ConsoleColorPrintf(Color::Pink(), "https://www.youtube.com/X-HvHau\n");
+    var->ConsoleColorPrintf(Color::White(), "[breathless-fork] Injected successfully! ");
     
 }
 
