@@ -8,7 +8,9 @@ The face.us repository got deleted by (Creditcode) the creator long live the ori
 Please go to the [wiki](https://github.com/iraizo/breathless-fork/wiki) to know how to install it for any issues please go to the [issue tracker](https://github.com/iraizo/breathless-fork/issues)
 
 
-# Credits 
+# Credits
+
+Raizo (updating)
 
 ViKiNG (Making Barbossa)
 
