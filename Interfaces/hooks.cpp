@@ -110,7 +110,7 @@ void UpdateResolver()
 
 void PrintInfo()
 {
-    Cvar->ConsoleColorPrintf(Color::White(), "[breathless-fork] Injected successfully! ");
+    pCvar->ConsoleColorPrintf(Color::White(), "[breathless-fork] Injected successfully! ");
     
 }
 
