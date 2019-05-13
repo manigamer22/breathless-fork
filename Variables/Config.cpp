@@ -16,11 +16,11 @@ Skins skin;
 const char* ConfigName;
 string user     = getenv("USER");
 string dsk      = "/Users/" + user + "/Desktop/";
-string fdr      = "/Users/" + user + "/Desktop/vape.us";
-string hvh    = "/Users/" + user + "/Desktop/vape.us/hvh.ini";
+string fdr      = "/Users/" + user + "/Desktop/Breathless";
+string hvh    = "/Users/" + user + "/Desktop/Breathless/hvh.ini";
 //string hvh2    = "/Users/" + user + "/Desktop/vape.us/hvh2.ini";
 //string hvh3    = "/Users/" + user + "/Desktop/vape.us/hvh3.ini";
-string skins    = "/Users/" + user + "/Desktop/vape.us/skins.ini";
+string skins    = "/Users/" + user + "/Desktop/Breathless/skins.ini";
 
 bool GetBoolValue(bool Value)
 {
